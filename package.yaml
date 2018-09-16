@@ -1,0 +1,41 @@
+name:               pbft-protocol-state
+version:            '0.0.0.1'
+synopsis:           Pratical Byzantine Fault Tolerant - Protocol State
+description:        Please see README.md
+category:           Network
+author:             "Alejandro Duran Pallares"
+maintainer:         vwwv@correo.ugr.es
+homepage:           https://gitlab.com/vwwv/pbft-protocol-state
+
+
+
+library:
+  ghc-options:
+    - -Wall
+    - -Werror
+  source-dirs:
+    - src
+
+  dependencies:
+    - base
+    - protolude
+
+  exposed-modules:
+    - Network.PBFT
+
+  default-extensions:
+    - DeriveGeneric
+    - DeriveLift
+    - DerivingStrategies
+    - EmptyDataDeriving
+    - FlexibleContexts
+    - FlexibleInstances
+    - GeneralizedNewtypeDeriving
+    - MonadFailDesugaring
+    - NoImplicitPrelude
+    - OverloadedStrings
+    - RecordWildCards
+    - RecordWildCards
+    - ScopedTypeVariables
+    - StandaloneDeriving
+    - TypeApplications
