@@ -7,6 +7,14 @@ import           Protolude
 import qualified Data.Map     as M
 import qualified Data.Set     as S
 
+{-  TODO list:
+      client msgs ........................... OK
+      pre-prepare, prepaper, commit .........
+      checkpoints and GC ....................
+      change-view, new-view .................
+
+-}
+
 
 type family NodeId          app :: *
 type family ClientId        app :: *
